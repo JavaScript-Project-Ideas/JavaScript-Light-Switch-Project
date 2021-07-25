@@ -27,3 +27,12 @@ light.addEventListener('click', function(e){
 })
 
 
+// Main Logic Here
+function lightSwitch() {
+    var image = document.getElementById('light');
+    if (image.src.match("bulbon")) {
+      image.src = "../img/lightOff.gif";
+    } else {
+      image.src = "../img/lightOn.gif";
+    }
+  }

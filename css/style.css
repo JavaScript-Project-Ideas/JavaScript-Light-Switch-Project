@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-
-
-
-
 /* Hero Area Design */
 .main {
     width: 100%;
@@ -21,25 +17,25 @@
     text-align: center;
 }
 
-.light {
-    /* width: auto; */
-}
-.light img {
+/* Light Design */
+.light-area img {
     width: 200px;
 }
 
+/* Button Design */
 .btn  {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .btn button {
     margin: 0 10px;
     padding: 10px 30px;
     border: none;
     border-radius: 4px;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 .btn button:hover {
     background: crimson;
     color: whitesmoke;
 }
-
