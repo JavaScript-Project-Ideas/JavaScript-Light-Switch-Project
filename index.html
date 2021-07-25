@@ -1,21 +1,50 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>JavaScript Basic Light Switch Project</title>
-	<!-- www.facebook.com/asifadib.official -->
-	<link rel="stylesheet" href="css/style.css">
-	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- website title -->
+	<title>JavaScript Light Switch Project</title>
+	<!-- custom css file -->
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+	<!-- Start Main Area -->
+	<div class="main">
+		<div class="light-area">
+			<img id="light" onclick="changeImage()" src="img/lightOff.gif" alt="" />
+		</div>
+
+		<div class="btn">
+			<button class="lightOff" href="#">Light Off</button>
+			<button class="lightOn" href="#">Light On</button>
+		</div>
+	</div>
+	<!-- /End Main Area -->
+
+
+	
+
+	<!-- JavaScript Files -->
+	<script src="./js/main.js"></script>
+</body>
+</html>
+
 
 	<!-- <div class="container">
 		<h2>JavaScript Basic Light Switch Project!</h2>
 		</br>
 		</br>
 		</br>
+
+
 		<button onclick="document.getElementById('light').src='img/lightOn.gif'">Light On</button>
+
+
 		<img id="light" src="img/lightOff.gif" alt="" />
+
+
 		<button onclick="document.getElementById('light').src='img/lightOff.gif'">Light Off</button>
 		<br>
 		<br>
@@ -23,20 +52,5 @@
 		<h2>Created by Asif Adib</h2>
 	</div> -->
 
-	<!-- Hero Area -->
-	
-		<div class="main">
-			<div class="light-area">
-				<img id="light" src="img/lightOff.gif" alt="" />
-			</div>
 
-			<div class="btn">
-				<button href="#">Light Off</button>
-				<button href="#">Light On</button>
-			</div>
-		</div>
 
-	<!-- JavaScript Files	 -->
-	<script src="./js/main.js"></script>
-</body>
-</html>
