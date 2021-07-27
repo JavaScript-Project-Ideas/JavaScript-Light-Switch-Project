@@ -1,6 +1,6 @@
 // Main Logic Here
-let  lightOff = document.getElementById('lightoff');
-let  lightOn = document.getElementById('lighton');
+let lightOff = document.getElementById('lightoff');
+let lightOn = document.getElementById('lighton');
 
 
 lightOff.addEventListener('click', function (e) {
