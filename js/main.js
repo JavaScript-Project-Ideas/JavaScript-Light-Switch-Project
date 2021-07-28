@@ -15,12 +15,12 @@ lightOn.addEventListener('click', function (e) {
 
 
 // Main Logic Here
-let location = document.getElementById('location')
-let location = document.getElementById('location')
+let lightOff = document.getElementById('location')
+let lightOn = document.getElementById('location')
 
-location.addEventListener('click', function (e) {
+lightOff.addEventListener('click', function (e) {
     document.getElementById('lightswitch').src = "./img/lightOff.gif"
 })
-location.addEventListener('click', function (e) {
+lightOn.addEventListener('click', function (e) {
     document.getElementById('lightswitch').src = "./img/lightOn.gif"
 })
